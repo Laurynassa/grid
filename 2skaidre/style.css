@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 15px;
+  background-color: brown;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  display: grid;
+  gap: 10px 10px;
+  height: 250px;
+}
+.one {
+  background-color: blue;
+  grid-area: 1/1/2/4;
+}
+.two {
+  background-color: green;
+  grid-area: 2/1/4/2;
+}
+.tre {
+  background-color: aqua;
+  grid-area: 2/2/4/3;
+}
+.for {
+  background-color: black;
+  grid-area: 2/3/4/4;
+}
+.five {
+  background-color: yellow;
+}
+.six {
+  background-color: yellowgreen;
+}
+.sev {
+  background-color: red;
+}
+.eit {
+  background-color: blueviolet;
+  grid-area: 5/1/6/4;
+}
